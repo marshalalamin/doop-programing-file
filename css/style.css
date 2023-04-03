@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* ==========boostrap nav header section start============== */
+header{
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 65px 75px;
+    margin-top: 35px;
+    margin: 10px 200px;
+    margin: auto;
+}
+ul.navbar-nav {
+    margin-left: 200px;
+}
+a.nav-link.active {}
+
+li.nav-item {
+    margin-right: 20px;
+}
+
+
+.language{
+
+}
+a.navbar-brand {}
+
+a.navbar-brand {
+    color: #314584;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+a.nav-link.active {
+    color: #1446e9;
+    font-size: 19px;
+}
+
+a.nav-link {
+    color: #6a89eb;
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul{
+
+list-style: none;
+
+display: flex;
+
+/* align-items: center; */
+
+/* margin-right: 100px; */
+
+padding: 0px 20px;
+
+/* justify-content: space-between; */
+}
+
+ul li {
+    
+/* margin-left: 50px; */
+    
+/* display: block; */
+    
+margin: 10px 20px;
+    
+text-align: center;
+}
+ul li a{
+    
+font-family: 'Work Sans', sans-serif;
+    
+text-align: center;
+    
+list-style: none;
+    
+text-decoration: none;
+    
+text-transform: capitalize;
+    
+color: white;
+}
+ul button{
+    
+}
+button.btn.btn-light {
+    background: transparent;
+    color: red;
+   border: 2px solid whitesmoke;
+   padding: 10px;
+    
+}
+/* ==========boostrap nav header section end============== */
+
+
+/* bannar part start ===============================*/
+
+.bannar{
+
+background: #ffffff;
+
+width: 100%;
+
+margin: auto;
+
+margin-top: 100px;
+
+padding: 20px;
+}
+.bannar_wapper{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+justify-content: space-between;
+
+text-align: center;
+}
+.content{
+
+width: 40%;
+
+margin: auto;
+
+padding: 10px;
+}
+
+.content h1{
+    font-family: 'Work Sans', sans-serif;
+color: #314584;
+    
+font-size: 30px;
+}
+.content p{
+    font-family: 'Work Sans', sans-serif;
+color: #6e757a;
+    
+font-size: 12px;
+    
+padding: 5px;
+    
+margin-top: 20px;
+}
+.button{
+
+display: flex;
+
+
+
+align-items: center;
+
+margin: 0px 10px;
+
+}
+
+.button input{background: #FF3946;
+    padding: 8px 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 12px;
+    font-family: 'Work Sans', sans-serif;
+    border: none;
+}
+.button input [type="submit"] {
+    background-color: #FF3946;
+    
+}
+.p{
+
+}
+.p p{ font-family: 'Work Sans', sans-serif;
+color: #314584;;;
+margin-left: 15px;
+}
+.bannar_img{
+
+width: 40%;
+
+margin: auto;
+}
+.bannar_img img{
+    
+width: 100%;
+    
+margin: auto;
+}
+
+/* bannar part start */
+
+.Anything{
+
+display: flex;
+
+width: 80%;
+
+margin: auto;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 66px 40px;
+
+/* margin: 100px 10px; */
+}
+.Anything h2{
+    font-family: 'Work Sans', sans-serif;
+color: #314584;
+    
+font-size: 22px;
+    
+padding: 10px 0px;
+    
+/* line-height: 22px; */
+}
+.Anything button{
+
+background-color: #ff3946;
+
+font-family: 'Work Sans', sans-serif;
+
+border: none;
+
+padding: 10px 15px;
+
+text-align: center;
+
+margin-top: 20px;
+
+border-radius: 12px;
+
+color: #ebdbdb;
+
+font-size: 19px;
+}
+
+.card-body{
+
+}
+.card-body h1{
+    font-family: 'Work Sans', sans-serif;
+color: #314584;
+    
+font-size: #.card-body{}
+    
+font-size: 20;
+    
+font-size: 22px;
+}
+.card-body p {
+    font-family: 'Work Sans', sans-serif;
+color: #314584;
+    
+font-size: 14px;
+}
+/* bannar part end ===============================*/
+
+/* some find word section start======================== */
+
+
+
+
+.some_find_word{
+
+width: 80%;
+
+display: flex;
+
+margin: auto;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 50px 10px;
+}
+.content_image{
+
+width: 35%;
+
+margin: auto;
+
+justify-content: space-between;
+}
+.content_image img{
+    
+width: 100%;
+    
+margin: auto;
+}
+.contain_paragrap{
+
+width: 35%;
+}
+
+.contain_paragrap h4{
+    
+color: #ff3946;
+    
+font-size: 12px;
+}
+
+.contain_paragrap h1 {color: #314584;
+    
+}
+
+.contain_paragrap p {
+    
+color: #314584;
+    
+font-size: 13px;
+}
+/* some find word section start======================== */
+
+h2.h4 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: -98px;
+    color: #314584;
+    /* margin-left: 131px; */
+    font-size: large;
+    /* margin-left: 93px; */
+}
+.dispay_gird{
+
+    background-image: url(../image/shado.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+display: gird;
+
+width: 80%;
+
+margin: auto;
+
+display: grid;
+
+grid-template-columns: 1fr 1fr 1fr;
+
+grid-auto-rows: minmax(100px auto);
+
+grid-gap: 2em;
+
+padding: 100px 20px;
+}
+
+.gird_item{
+
+text-align: center;
+
+align-items: center;
+
+width: 100%;
+
+margin: auto;
+
+padding: 10px;
+}
+.gird_item img{
+    
+width: 100%;
+    
+margin: auto;
+}
+.boostrap_grid img{width: 100%;
+
+}
+
+/* some find word section end======================== */
+
+
+/* BLOG STORIES section start */
+.BLOG_STORIEs{
+
+width: 60%;
+
+margin: auto;
+
+padding: 80px 10px;
+}
+.BLOG_STORIEs h4{
+    
+color: red;
+    
+font-size: 15px;
+}
+.BLOG_STORIEs h1{
+    
+
+    
+color: #314584;
+}
+
+.new_advane_icon{
+
+text-align: end;
+
+color: white;
+}
+
+.card-body p{
+}
+
+
+.new_icon{
+
+text-align: end;
+
+color: red;
+}
+
+.h4{
+    color:#314584  ;
+}
+
+.card-body .paragrap p{
+    color: white;
+}
+/* BLOG STORIES section end========================= */
+
+
+/* ===========contact_us section start */
+
+.contact_us{
+
+width: 80%;
+margin: auto;
+padding: 50px 2px;
+}
+.contact_us h4{  
+margin-left: 60px;   
+color: red;
+}
+
+.contact_us h1{
+margin-left: 60px; 
+margin-bottom: 40px;
+color: #314584;
+}
+.d_flex{ 
+width: 100%;   
+display: flex; 
+justify-content: space-between; 
+align-items: center;
+}
+.input_one{
+width: 48%;
+margin: auto;
+border: none;
+}
+
+.input_one input{
+    bac
+border: none;
+background: #F4FAFE;
+padding: 15px 0px;
+}
+
+.input_one input:focus{
+    outline: none;
+}
+.input_one input::placeholder{
+    margin-left: 50px;
+    padding: auto;
+    color: #314584;
+    margin: auto;
+}
+.inpute_two {
+width: 48%;
+margin: auto;
+}
+.inpute_two input{
+background: #F4FAFE;
+border:  none;
+padding: 15px 0px;
+
+}
+
+.inpute_two input:focus{
+    outline: none;
+    border: 2px solid red;
+}
+
+textarea.form-control {
+    border: none;
+    background: #F4FAFE;
+}
+
+textarea.form-control:focus{
+    outline: none;
+    border: none;
+    height: 100px;
+}
+
+/* ===========contact_us section end============== */
+
+
+
+
+
+
+
+.CREATIVITY_ABOVe{
+background: #;
+background: #314584;
+padding: 20px 0px;
+margin: 20px 0px;
+height: 400px;
+position: relative;
+}
+.contain{
+width: 30%;
+justify-content: space-between;
+margin: auto;
+padding: 10px 0px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.contain h1{ 
+color: red; 
+font-size: 23px;
+text-align: center;
+}
+
+
+
+.reserve{
+text-align: center;
+color: white;
+}
+.reserve h6{ 
+font-size: 10px;
+}
+.font_awesime{
+display: flex;
+margin: auto;
+width: 35%;
+}
+.icon{
+margin-left: 30px;
+font-size: 25px;
+color: white;
+}
